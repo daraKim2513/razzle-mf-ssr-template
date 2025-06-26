@@ -1,0 +1,46 @@
+# Node modules
+node_modules/
+**/node_modules/
+
+# Razzle build output
+build/
+public/
+cache/
+
+# Remote apps build output
+remotes/*/dist/
+remotes/*/build/
+
+# dotenv environment files
+.env
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor folders
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Mac swap files
+*.swp
+
+# Coverage reports
+coverage/
+.nyc_output/
+
+# Misc
+npm-debug.log*
+pnpm-debug.log*
