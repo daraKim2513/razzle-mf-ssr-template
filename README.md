@@ -1,3 +1,5 @@
+## Razzle vs Modern.js
+
 | 항목 | Razzle | Modern.js |
 | --- | --- | --- |
 | **Module Federation 지원** | • Webpack 4 기반으로 Module Federation 공식 지원 없음• 4.x 베타만 Webpack 5 지원 → 불안정 | • Webpack 5 기반 공식 플러그인 내장 (`moduleFederation` 옵션)• 설정 한 번으로 바로 사용 가능 |
@@ -5,6 +7,8 @@
 | **SSR + MFE 통합 편의성** | • 기본 SSR 핸들러는 단일 앱 전용• `loadRemote` 등 커스텀 코드 작성·polyfill 필요 | • SSR/CSR/MFE가 하나의 런타임으로 결합• `modern.config.ts`에 `moduleFederation`만 선언하면 SSR에도 자동 적용 |
 | **공유 의존성 관리** | • React·react-dom 싱글톤 공유 수동 설정• `requiredVersion`·`eager` 옵션 직접 튜닝 | • 자동 버전 검증·싱글톤/이거 옵션 제공• 충돌 예방 로직 내장 |
 | **생태계·문서·사례** | • MFE 사례·공식 가이드·샘플 거의 전무• 개인 블로그 의존도가 높아 학습 곡선 가파름 | • 바이트댄스 주도로 MFE 튜토리얼·샘플 활성화• 글로벌 프로젝트 도입 사례 증가 |
+
+## Razzle 운영을 선택하지 못하는 이유들
 
 | 이유 | 설명 | 결과/영향 |
 | --- | --- | --- |
